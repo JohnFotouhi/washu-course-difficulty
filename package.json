@@ -1,0 +1,33 @@
+{
+  "name": "creativeproject-module7-487077-488345",
+  "version": "1.0.0",
+  "description": "REPLACE-THIS-TEXT-WITH-YOUR-NAME-STUDENT-ID-AND-GITHUB-USERNAME",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cd client && yarn && yarn run build",
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cse330-fall-2022/creativeproject-module7-487077-488345.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cse330-fall-2022/creativeproject-module7-487077-488345/issues"
+  },
+  "homepage": "https://github.com/cse330-fall-2022/creativeproject-module7-487077-488345#readme",
+  "dependencies": {
+    "@mui/material": "^5.10.16",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1"
+  },
+  "engines": {
+    "node": "16.16.0"
+  }
+}
