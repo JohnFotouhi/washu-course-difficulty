@@ -1,10 +1,10 @@
 const mysql = require('mysql');
 
 var config = {
-    host: "18.118.18.250",
-    user: "server",
-    password: "Follow Basin-Watch-Shelf-4",
-    database: "difficulty",
+    host: process.env.db_host,
+    user: process.env.db_user,
+    password: process.env.db_password,
+    database: process.env.db_name,
 }
 
 // Queries courses from database with filters
